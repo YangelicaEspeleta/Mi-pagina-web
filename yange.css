@@ -1,10 +1,10 @@
-h1{
+.titulo-h1{
     text-align: center;
     color: rgb(34, 99, 99);
     font-size: 40px;
 }
 
-h2{
+.title-h2{
     color: rgb(236, 95, 119);
     margin-top: 50px;
     
@@ -18,27 +18,27 @@ img{
 
 }
 
-a{
+.redessociales{
     color:rgb(197, 162, 197);
     text-decoration:black;
     font-size: 24px;
     padding: 15px;
 }
 
-table{
+.tablafamiliares{
 
     margin-left: 30px;
 }
 
-table, tr, td{
+.tablafamiliares, .familia, .nombres{
     border: 1px solid black;
 }
 
-form{
+.form{
 
     width: max-content;
     position: relative;
-    left: 50px;
+    left: 50%;
     transform: translateX(-50%);
     display: flex;
     gap: 15px;
