@@ -1,0 +1,49 @@
+h1{
+    text-align: center;
+    color: rgb(34, 99, 99);
+    font-size: 40px;
+}
+
+h2{
+    color: rgb(236, 95, 119);
+    margin-top: 50px;
+    
+}
+
+img{
+    width: 300px;
+    position: relative;
+    left: 50%; 
+    transform: translateX(-50px);
+
+}
+
+a{
+    color:rgb(197, 162, 197);
+    text-decoration:black;
+    font-size: 24px;
+    padding: 15px;
+}
+
+table{
+
+    margin-left: 30px;
+}
+
+table, tr, td{
+    border: 1px solid black;
+}
+
+form{
+
+    width: max-content;
+    position: relative;
+    left: 50px;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid steelblue;
+    border-radius: 8px;
+}
